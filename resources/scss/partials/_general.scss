@@ -1,13 +1,21 @@
 main{
-  height: calc(100vh - 130px);
+  min-height: calc(100vh - 130px);
 }
 
-.card{
-  width: 20%;
-  img{
-    max-width: 100%;
-    aspect-ratio: 2/3;
-    object-fit: cover;
-    object-position: top;
+.pg-card-wrapper{
+  .card{
+    width: 20%;
+    img{
+      max-width: 100%;
+      aspect-ratio: 2/3;
+      object-fit: cover;
+      object-position: top;
+    }
   }
+}
+
+.pg-title{
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow : ellipsis !important;
 }
