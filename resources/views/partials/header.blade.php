@@ -5,7 +5,7 @@
 
         <div class="pg-left">
           <a class="navbar-brand" href="{{route('home')}}">
-            <img src="logo.png" alt="Logo" width="30" class="d-inline-block align-text-top me-2">
+            <img src="/logo.png" alt="Logo" width="30" class="d-inline-block align-text-top me-2">
             <span>Movie Boolist</span>
           </a>
         </div>

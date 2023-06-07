@@ -13,10 +13,16 @@ class PageController extends Controller
   }
 
   public function movies(){
-    return view('movies');
+    $movies = Movie::all();
+    return view('movies', compact('movies'));
   }
 
   public function contacts(){
     return view('contacts');
+  }
+
+  public function film_infos($id){
+    $movie = Movie::find($id);
+    return view('film-info', compact('movie'));
   }
 }
