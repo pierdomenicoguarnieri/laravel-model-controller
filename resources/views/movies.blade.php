@@ -5,8 +5,8 @@
 @endsection
 
 @section('content')
-  <main>
-    <div class="pg-table-wrapper h-100 d-flex justify-content-center align-items-center py-5">
+  <main class="overflow-x-auto">
+    <div class="pg-table-wrapper d-flex justify-content-center align-items-center py-5">
       <div class="container">
         <h2 class="text-center">Lista dei film!</h2>
         <div class="row row-cols-5">
