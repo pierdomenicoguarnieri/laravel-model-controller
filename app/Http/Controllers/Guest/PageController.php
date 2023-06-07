@@ -23,6 +23,7 @@ class PageController extends Controller
 
   public function film_infos($id){
     $movie = Movie::find($id);
+    if($movie === null) abort(404);
     return view('film-info', compact('movie'));
   }
 }
