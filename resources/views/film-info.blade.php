@@ -14,7 +14,7 @@
           <p class="card-text">{{$movie->original_title}}</p>
           <p class="card-text">Lingua: {{$movie->nationality}}</p>
           <p class="card-text">Voto: {{$movie->vote}}/10</p>
-          <a href="{{route('movies')}}" class="btn btn-primary">Torna alla lista dei film</a>
+          <a href="{{route('movies')}}" class="btn btn-light">Torna alla lista dei film</a>
         </div>
       </div>
     </div>

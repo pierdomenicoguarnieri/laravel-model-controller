@@ -10,6 +10,8 @@
       <h1 class="mb-4">Benvenuto nella Movie Boolist!</h1>
 
       <p>Forniamo un database di film con i loro dettagli.</p>
+
+      <a href="{{route('movies')}}"><button type="button" class="btn btn-light mt-5">Vai alla lista</button></a>
     </div>
   </main>
 @endsection
