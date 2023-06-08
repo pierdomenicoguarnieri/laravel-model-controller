@@ -8,7 +8,7 @@
   <main>
     <div class="pg-card-wrapper h-100 d-flex justify-content-center align-items-center overflow-x-scroll">
       <div class="card">
-        <img src="{{$movie->src}}" class="card-img-top" alt="">
+        <img src="{{$movie->src}}" class="card-img-top" alt="{{$movie->title}}" title="{{$movie->title}}">
         <div class="card-body">
           <h5 class="card-title">{{$movie->title}}</h5>
           <p class="card-text">{{$movie->original_title}}</p>

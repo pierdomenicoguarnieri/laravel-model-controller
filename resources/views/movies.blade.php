@@ -13,7 +13,7 @@
           @foreach ($movies as $movie)
             <div class="col mt-5">
               <div class="card h-100">
-                <img src="{{$movie->src}}" class="card-img-top h-75 object-fit-cover" alt="">
+                <img src="{{$movie->src}}" class="card-img-top h-75 object-fit-cover" alt="{{$movie->title}}" title="{{$movie->title}}">
                 <div class="card-body d-flex flex-column justify-content-between">
                   <h5 class="card-title pg-title mb-3">{{$movie->title}}</h5>
 
