@@ -21,9 +21,9 @@ class PageController extends Controller
     return view('contacts');
   }
 
-  public function film_infos($id){
+  public function movie_info($id){
     $movie = Movie::find($id);
     if($movie === null) abort(404);
-    return view('film-info', compact('movie'));
+    return view('movie-info', compact('movie'));
   }
 }

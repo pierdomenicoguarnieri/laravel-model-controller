@@ -18,7 +18,7 @@
                   <h5 class="card-title pg-title mb-3">{{$movie->title}}</h5>
 
                   <div class="pg-button-container text-center mt-5">
-                    <a href="{{route('film_info', ['id' => $movie->id])}}" class="btn btn-light">Dettagli</a>
+                    <a href="{{route('movie_info', ['id' => $movie->id])}}" class="btn btn-light">Dettagli</a>
                   </div>
                 </div>
               </div>

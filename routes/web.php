@@ -20,5 +20,5 @@ Route::get('/lista-film', [PageController::class, 'movies'])->name('movies');
 
 Route::get('/contatti', [PageController::class, 'contacts'])->name('contacts');
 
-Route::get('/film/{id}', [PageController::class, 'film_infos'])->name('film_info');
+Route::get('/film/{id}', [PageController::class, 'movie_info'])->name('movie_info');
 
